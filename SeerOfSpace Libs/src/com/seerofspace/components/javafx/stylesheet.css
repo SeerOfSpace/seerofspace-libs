@@ -1,0 +1,11 @@
+.text-field:dragAccepted {
+	-fx-effect: innershadow(three-pass-box, #3390ff, 3, 0.8, 0, 0);
+}
+
+.text-field:dragRejected {
+	-fx-effect: innershadow(three-pass-box, rgb(255, 130, 130), 3, 0.8, 0, 0);
+}
+
+.text-field:empty {
+	-fx-text-fill: grey;
+}
