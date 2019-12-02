@@ -59,7 +59,7 @@ public class DirField extends HBox {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		getStylesheets().add(getClass().getResource("stylesheet.css").toExternalForm());
+		getStylesheets().add(getClass().getResource("DirFieldStylesheet.css").toExternalForm());
 		dragAccepted = PseudoClass.getPseudoClass("dragAccepted");
 		dragRejected = PseudoClass.getPseudoClass("dragRejected");
 		textfield.setPromptText(promptText);
